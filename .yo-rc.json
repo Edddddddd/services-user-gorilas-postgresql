@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "cl.gorilas.user"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "servicesUsuarioGorilas",
+    "packageName": "cl.gorilas.user",
+    "packageFolder": "cl/gorilas/user",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NWRkZGI4Zjg4MjY4YjRmNGQzMTk3MWE4OTRhOTgzZDc5MGI0NGI5NTg4OThjMWI3ZWFjNDk3YmU3ZDIzY2ZlZDA1NzNmZDg0NjQxODZjOTQzMGJkYjExNjUwZDMwNzczODI4YjcwYWM1OGE4ZGFhZjE4Mjk1YTEyZmVhZjlkNmQ=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

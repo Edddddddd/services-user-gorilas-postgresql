@@ -1,0 +1,84 @@
+{
+    "name": "Usuarios",
+    "fields": [
+        {
+            "fieldName": "idGorilas",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nombreCompleto",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "correoElectronico",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "documento",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "abono",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "estado",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "turnosDisponibles",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "turnosDisponiblesLeyenda",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "turnosDisponiblesLeyendaHtml",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "abonosVencimientoHtml",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fechaProxAptoFisico",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "fechaProxAptoFisicoString",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "diasRestantes",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "tieneDeuda",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "saldo",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "domicilio",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "barrio",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200519183628",
+    "entityTableName": "usuarios",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "clientRootFolder": "servicesUsuarioGorilas",
+    "applications": "*",
+    "microserviceName": "servicesUsuarioGorilas"
+}
